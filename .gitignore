@@ -1,0 +1,13 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Visual Studio / MonoDevelop generated
+/[Aa]ssets/Plugins/Editor/
+/[Aa]ssets/Plugins/Editor/x86/
+/[Aa]ssets/Plugins/Editor/x86_64/
