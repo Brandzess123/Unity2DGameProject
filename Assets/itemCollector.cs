@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class itemCollector : MonoBehaviour
 {
    private int cherries = 0;
 
-    // [SerializeField] private Text cherriesText;
+    [SerializeField] private Text Fruit_Text;
 
     // [SerializeField] private AudioSource collectionSoundEffect;
 
@@ -17,7 +18,7 @@ public class itemCollector : MonoBehaviour
             // collectionSoundEffect.Play();
             Destroy(collision.gameObject);
             cherries++;
-            // cherriesText.text = "Cherries: " + cherries;
+            Fruit_Text.text = "Cherries: " + cherries;
         }
     }
 }
