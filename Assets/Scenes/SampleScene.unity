@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 288530865}
   - component: {fileID: 288530866}
   - component: {fileID: 288530867}
+  - component: {fileID: 288530868}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -331,6 +332,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fruit_Text: {fileID: 1009123169}
+--- !u!114 &288530868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288530860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13239ac1cbb2b024f9db634f4915f32e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,7 +2050,7 @@ GameObject:
   - component: {fileID: 1348617295}
   m_Layer: 0
   m_Name: Spice
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
